@@ -9,7 +9,7 @@ dotnet add package NUnit3TestAdapter
 dotnet add package Microsoft.Net.Test.Sdk
 ```
 
-Add below code to your `Program.fs`, they should be placed at the `[<EntryPoint>]` annotation.
+Add below code to your `Program.fs`, they should be placed before the `[<EntryPoint>]` annotation.
 
 ```fsharp
 open NUnit.Framework
